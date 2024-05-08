@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="_6L@,dpFMj4OZdS$)FKH" x="20" y="20"><statement name="HANDLER"><block type="music_playable_play" id="$7mM[h.6`.E0pA]lttvr"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id=":7P$62$7|B7|+BaUd8;#"><value name="melody"><shadow type="melody_editor" id="*zGjowFe.}ob5Wy!M.e%"><field name="melody">"D C D E E D C G "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="i{J,At|OpRyQi7b]H@g^"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_set_brightness" id="+RTq61iN{-x:T;={{jiM"><value name="value"><shadow type="math_number_minmax" id="kZ5GsifCT1n}^XjnnhG:"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">36</field></shadow></value><next><block type="device_show_leds" id="_1Rtu2Fm#.cE$K1G8v=!"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_set_brightness" id="@l2D5{_ff}a9HboC+vtC"><value name="value"><shadow type="math_number_minmax" id="sFczQ{qra/MfyFS:]i~="><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">72</field></shadow></value><next><block type="device_show_leds" id="k$v=tC^4g4U=h9R!HRTD"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_set_brightness" id="b1!Z1Tjpl9D)o?5m/0sl"><value name="value"><shadow type="math_number_minmax" id="r_LhGJvpdj/z6Mwe|d9G"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">108</field></shadow></value><next><block type="device_show_leds" id="!AIDVLoQU.8XBqwVQ7-j"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_set_brightness" id="7*F0IQ|TN~/p0DPGB,US"><value name="value"><shadow type="math_number_minmax" id="}q7;9oJP73u?.w$RLOZ6"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">144</field></shadow></value><next><block type="device_show_leds" id=")vAxz/hh.9D`KLwj#NRM"><field name="LEDS">`
+        . # . # . 
+        . # # # . 
+        # # . # # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_set_brightness" id="H~Z[Y7ukgW]l~K!0(:wM"><value name="value"><shadow type="math_number_minmax" id="q+l)^;mxFG),6Xv$?iTI"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">180</field></shadow></value><next><block type="device_show_leds" id="lhcRQ|j?,.Ot@ZEp:8UW"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # . 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_set_brightness" id="WXH[3]}sk}x/(amRcO:K"><value name="value"><shadow type="math_number_minmax" id=";D,x;Ab?It,){[5wOzIf"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">216</field></shadow></value><next><block type="device_show_leds" id="Swju^^*)@kXwehJ`3}CQ"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="~sEE{c#8O-1F5%rK32Rm" x="225" y="20"></block><block type="device_set_brightness" id="%!k}??AtFAETC1/79#=V" disabled="true" x="132" y="599"><value name="value"><shadow type="math_number_minmax" id="C~cqec9#X$^uo)S$Q=:n" disabled="true"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">224</field></shadow></value></block><block type="device_set_brightness" id="S/(Q40:g=yE#!E0e1jz%" disabled="true" x="180" y="695"><value name="value"><shadow type="math_number_minmax" id="~o{n*pRAz@O-Y60l=1w3" disabled="true"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">224</field></shadow></value></block><block type="basic_show_icon" id="C-^*.1)J@T?}@)v[jz6[" disabled="true" x="320" y="770"><field name="i">IconNames.Heart</field></block></xml>
